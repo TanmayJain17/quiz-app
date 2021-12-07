@@ -2,26 +2,20 @@ const route = require('express').Router()
 const ExcelJS = require('exceljs')
 const {theScores} = require('../../controller/findScore')
 const path = require('path')
+//const {tempfile} = require('tempfile')
+//import tempfile from 'tempfile';
 
-route.get('/',async (req, res)=>{
-    req.header('Access-Control-Allow-Origin',' http://localhost:4536')
-    req.header('pragma', 'no-cache')
-  req.header('sec-fetch-site', 'cross-site')
-  req.header('sec-fetch-mode', 'no-cors')
-  req.header('sec-fetch-dest', 'empty')
-  req.header('connection', 'close')
-  res.redirect('/downall')
-  
-    //console.log(req.headers)
+route.get('/', async (req, res)=>{
+    console.log(req.headers)
     //console.log(res.headers)
-   // const scores = await theScores()
+    const scores = await theScores()
     /* const options = {
         root:path.join('../../')
     }
     //console.log(scores[0].dataValues)
     res.sendFile('scores.xlsx',options) */
     
-    /* const workbook = new ExcelJS.Workbook()
+    const workbook = new ExcelJS.Workbook()
     const worksheet = workbook.addWorksheet('AllScores')
     worksheet.columns = [
         { header: 'Id', key: 'id', width: 2 },
@@ -58,13 +52,13 @@ route.get('/',async (req, res)=>{
         {header: 'Q31', key: 'q31marks', width: 5},
         {header: 'Q32', key: 'q32marks', width: 5},
         {header:'Total',key:'total',width:10}
-    ] */
+    ]
     
         //worksheet.columns.push({header: `Q${k+1}`, key: `q${k+1}`, width: 5})
     
     //worksheet.columns.push({header:'Total',key:'total',width:15})
 
-    /* for(let t=0;t<scores.length;t++){
+    for(let t=0;t<scores.length;t++){
         
         worksheet.addRow(scores[t].dataValues)
     }
@@ -72,10 +66,15 @@ route.get('/',async (req, res)=>{
         cell.font = {bold:true,italic:true}
     }) 
     console.log('here is the error')
-    const score =workbook.xlsx.writeFile('scores.xlsx') */
+    
+        
+    const score =await workbook.xlsx.writeFile('scores.xlsx')
+    const options = {
+        root:path.join('./')
+    }
+    //console.log(scores[0].dataValues)
+    res.sendFile('scores.xlsx',options)
     /* const paths = `${path}/${scores.slsx}` */
-    //res.send(score)
-}
-)
-
-module.exports = route
+    //res.send('ok')
+})
+module.exports=route

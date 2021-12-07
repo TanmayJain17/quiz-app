@@ -6,6 +6,7 @@ const path = require('path');
 const detailsRoute = require('./routes/details/index.js')
 const scoreRoute = require('./routes/score/index.js')
 const findScores = require('./routes/findScore/index.js')
+const downallScores = require('./routes/downallScores/index.js')
 const app = express()
 
 const PORT = process.env.PORT || 4444;
@@ -16,6 +17,7 @@ app.use(express.json())
 app.use(express.static(path.join(__dirname, 'build')));
 
 app.use('/findall',findScores)
+app.use('/downall',downallScores)
 app.get('/*', (req, res) => {
   res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
