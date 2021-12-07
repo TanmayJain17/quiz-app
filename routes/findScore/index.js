@@ -70,9 +70,10 @@ route.get('/',async (req, res)=>{
     worksheet.getRow(1).eachCell((cell)=>{
         cell.font = {bold:true,italic:true}
     }) 
-    const score = await workbook.xlsx.writeFile('scores.xlsx')
+    console.log('here is the error')
+    const score =workbook.xlsx.writeFile('scores.xlsx')
     /* const paths = `${path}/${scores.slsx}` */
-    //res.send('ok')
+    res.send('ok')
 }
 )
 

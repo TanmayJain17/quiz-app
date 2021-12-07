@@ -80,7 +80,8 @@ route.post('/',async (req, res)=>{
     console.log(totalScore)
 
     const theScore = createScoreSheet(marks,totalScore)
-    res.status(201).redirect('/findall')
+    res.status(201).send({message:"ok"})
+    //res.status(201).redirect('/findall')
     //res.status(201).send('ok')
 })
 

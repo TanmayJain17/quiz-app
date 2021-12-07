@@ -1,0 +1,164 @@
+{
+  "data": [
+    {
+      "question": "1.Interacting with people makes me feel good. ?",
+      "choices": ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "2.My goals in life are clear ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "3.If people are rude to me I just shrug it off ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "4.I am confident in what I do ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "5.I can work even when things are disorganized ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "6.I consistently put full time and effort into everything I do?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "7.I prefer achieving my goals than assisting others to achieve their goals?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "8.I would describe myself as an extremely competent person?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "9.I prefer working within a stable rather than flexible environment ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "10.I am ambitious ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "11.It's better to get a job done than aim for perfection ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "12.I am able to complete tasks as well as, or better than other people ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "13.I like to be in charge of other people ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "14.I strive to do the best I can ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "15.I feel uneasy if I'm the centre of attention?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "16.I am confident in my abilities to complete difficult tasks at work ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "17.I am happy to make speeches in public ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "18.It is very important for me to achieve my goals ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "19.I like to react to things on the spur of the moment ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "20.I believe I am more intelligent than most ?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "21.I don't like unexpected responsibilities?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "22.I approach life in an easy-going manner?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "23.I tend to take on other people’s problems?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "24.I like to have plenty of time to myself?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "25.People often comment on how comfortable I am in giving orders?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "26.I can solve my issues within time.?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "27.I am flexible to work after office hours?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "28.Changes in my work makes me feel uncomfortable?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Disagree"
+    },
+    {
+      "question": "29.I almost cross deadline of work when there is work pressure?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "30.I am keen or specific about time management?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "31.I like to document, whatever is discussed with clients.?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    },
+    {
+      "question": "32.I have leadership qualities?",
+      "choices":  ["Agree", "Disagree"],
+      "answer": "Agree"
+    }
+  ]
+}
