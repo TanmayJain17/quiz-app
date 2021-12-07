@@ -27,9 +27,9 @@ app.use('/score',scoreRoute)
     res.sendFile(path.join(__dirname+'/client/public/index.html'));
   });
  */
-app.get('/',(req, res)=>{
+/* app.get('/',(req, res)=>{
     res.send('ok it is working')
-})
+}) */
 
 
 db.sync()
